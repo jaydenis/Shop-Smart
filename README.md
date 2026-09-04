@@ -1,5 +1,5 @@
 # ShopSmart
-THis project was an experiment in the use of AI to assist in the creation of a gamining supplement for the tabletop miniatures game [Forbidden Psalm](https://www.forbiddenpsalm.com/). 
+This project was an experiment in the use of AI to assist in the creation of a gamining supplement for the tabletop miniatures game [Forbidden Psalm](https://www.forbiddenpsalm.com/). 
 
 
 This project was generated with:
@@ -8,7 +8,8 @@ This project was generated with:
 - GitHub Copilot
 - Google Gemin/Antigravity
 
-
+## See It In Action
+[Dude! Watch This](https://yolodeploy.netlify.app/)
 
 ## Development server
 
