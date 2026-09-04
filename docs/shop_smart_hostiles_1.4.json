@@ -1,5 +1,6 @@
 [
   {
+    "tier": "common",
     "category": "common",
     "monster": "Shambling Zombie",
     "hp": 2,
@@ -10,6 +11,7 @@
     "keywords": ["Undead"]
   },
   {
+    "tier": "common",
     "category": "common",
     "monster": "Possessed Mannequin",
     "hp": 3,
@@ -20,6 +22,7 @@
     "keywords": ["Construct", "Undead"]
   },
   {
+    "tier": "common",
     "category": "common",
     "monster": "Clown Corpse",
     "hp": 2,
@@ -30,6 +33,7 @@
     "keywords": ["Undead"]
   },
   {
+    "tier": "common",
     "category": "common",
     "monster": "Crypt Skitter",
     "hp": 4,
@@ -40,6 +44,7 @@
     "keywords": ["Beast", "Undead"]
   },
   {
+    "tier": "common",
     "category": "common",
     "monster": "Cultist",
     "hp": 5,
@@ -50,6 +55,7 @@
     "keywords": ["Human", "Cult"]
   },
   {
+    "tier": "common",
     "category": "common",
     "monster": "Cursed Shopping Cart",
     "hp": 4,
@@ -60,6 +66,7 @@
     "keywords": ["Construct"]
   },
   {
+    "tier": "tough",
     "category": "tough",
     "monster": "Undead Manager",
     "hp": 6,
@@ -70,6 +77,7 @@
     "keywords": ["Undead"]
   },
   {
+    "tier": "tough",
     "category": "tough",
     "monster": "Demon Clown",
     "hp": 5,
@@ -80,6 +88,7 @@
     "keywords": ["Undead", "Demon"]
   },
   {
+    "tier": "tough",
     "category": "tough",
     "monster": "Grave Robber",
     "hp": 8,
@@ -90,6 +99,7 @@
     "keywords": ["Undead", "Ghoul"]
   },
   {
+    "tier": "tough",
     "category": "tough",
     "monster": "Night Stalker",
     "hp": 12,
@@ -100,6 +110,7 @@
     "keywords": ["Undead", "Vampire", "Hard To Kill"]
   },
   {
+    "tier": "tough",
     "category": "tough",
     "monster": "Blood-Crazed Drifter",
     "hp": 10,
@@ -110,6 +121,7 @@
     "keywords": ["Undead", "Vampire", "Hard To Kill"]
   },
   {
+    "tier": "tough",
     "category": "tough",
     "monster": "Cackling Groundskeeper",
     "hp": 8,
@@ -120,6 +132,7 @@
     "keywords": ["Human", "Psycho"]
   },
   {
+    "tier": "tough",
     "category": "tough",
     "monster": "Patchwork Enforcer",
     "hp": 13,
@@ -130,6 +143,7 @@
     "keywords": ["Undead", "Construct"]
   },
   {
+    "tier": "boss",
     "category": "boss",
     "monster": "Linda",
     "hp": 18,
@@ -140,6 +154,7 @@
     "keywords": ["Human", "Psycho", "Possessed"]
   },
   {
+    "tier": "boss",
     "category": "boss",
     "monster": "Manager Mike, Evil Twin",
     "hp": 17,
@@ -150,6 +165,7 @@
     "keywords": ["Human", "Doppelganger", "Cursed"]
   },
   {
+    "tier": "boss",
     "category": "boss",
     "monster": "Hex Mall Warlock",
     "hp": 15,
@@ -160,6 +176,7 @@
     "keywords": ["Undead", "Demon", "Caster"]
   },
   {
+    "tier": "boss",
     "category": "boss",
     "monster": "Cult Leader",
     "hp": 19,
@@ -170,6 +187,7 @@
     "keywords": ["Human", "Cult", "Caster"]
   },
   {
+    "tier": "boss",
     "category": "boss",
     "monster": "Possessed Cash Register",
     "hp": 12,
