@@ -1,0 +1,182 @@
+[
+  {
+    "category": "common",
+    "monster": "Shambling Zombie",
+    "hp": 2,
+    "morale": null,
+    "attack": "Bite — d4",
+    "armor": 0,
+    "special": "Persistence (return on 5+ on d6)",
+    "keywords": ["Undead"]
+  },
+  {
+    "category": "common",
+    "monster": "Possessed Mannequin",
+    "hp": 3,
+    "morale": 8,
+    "attack": "Slam — d6",
+    "armor": 1,
+    "special": "Glass Shards (+1 dmg on crit)",
+    "keywords": ["Construct", "Undead"]
+  },
+  {
+    "category": "common",
+    "monster": "Clown Corpse",
+    "hp": 2,
+    "morale": 6,
+    "attack": "Pie Throw — d4",
+    "armor": 0,
+    "special": "Laugh Track (+1 ally attack)",
+    "keywords": ["Undead"]
+  },
+  {
+    "category": "common",
+    "monster": "Crypt Skitter",
+    "hp": 4,
+    "morale": 5,
+    "attack": "Bite d4",
+    "armor": 0,
+    "special": "Scurry: Ignores first 2\" of difficult terrain each activation",
+    "keywords": ["Beast", "Undead"]
+  },
+  {
+    "category": "common",
+    "monster": "Cultist",
+    "hp": 5,
+    "morale": "9*",
+    "attack": "Knife — d4",
+    "armor": 0,
+    "special": "Bond: Within 12\" of Cult Leader, Morale becomes 12",
+    "keywords": ["Human", "Cult"]
+  },
+  {
+    "category": "common",
+    "monster": "Cursed Shopping Cart",
+    "hp": 4,
+    "morale": null,
+    "attack": "Ram — d6",
+    "armor": 3,
+    "special": "Obstruction (blocks movement)",
+    "keywords": ["Construct"]
+  },
+  {
+    "category": "tough",
+    "monster": "Undead Manager",
+    "hp": 6,
+    "morale": 10,
+    "attack": "Clipboard Slam — d8",
+    "armor": 2,
+    "special": "Performance Review (-1 enemy tests)",
+    "keywords": ["Undead"]
+  },
+  {
+    "category": "tough",
+    "monster": "Demon Clown",
+    "hp": 5,
+    "morale": null,
+    "attack": "Axe Chop — d10",
+    "armor": 1,
+    "special": "Fear Factor (PRE DR12 or flee)",
+    "keywords": ["Undead", "Demon"]
+  },
+  {
+    "category": "tough",
+    "monster": "Grave Robber",
+    "hp": 8,
+    "morale": 9,
+    "attack": "Shovel — d6",
+    "armor": 1,
+    "special": "Diseased Claws: Target must pass TOU test or become Diseased",
+    "keywords": ["Undead", "Ghoul"]
+  },
+  {
+    "category": "tough",
+    "monster": "Night Stalker",
+    "hp": 12,
+    "morale": null,
+    "attack": "Claw — d8",
+    "armor": 1,
+    "special": "Blackout Aura: Light sources within 6\" are suppressed until the end of that model's next activation",
+    "keywords": ["Undead", "Vampire", "Hard To Kill"]
+  },
+  {
+    "category": "tough",
+    "monster": "Blood-Crazed Drifter",
+    "hp": 10,
+    "morale": 9,
+    "attack": "Machete — d8",
+    "armor": 2,
+    "special": "Fresh Scent: Must target the nearest wounded model if one is in line of sight",
+    "keywords": ["Undead", "Vampire", "Hard To Kill"]
+  },
+  {
+    "category": "tough",
+    "monster": "Cackling Groundskeeper",
+    "hp": 8,
+    "morale": 8,
+    "attack": "Rust Hook — d6",
+    "armor": 1,
+    "special": "Bad Advice: One hostile within 8\" gets -1 to its next test",
+    "keywords": ["Human", "Psycho"]
+  },
+  {
+    "category": "tough",
+    "monster": "Patchwork Enforcer",
+    "hp": 13,
+    "morale": null,
+    "attack": "Slam — d8",
+    "armor": 1,
+    "special": "Stagger Shock: On a Critical hit, the target is Dazed",
+    "keywords": ["Undead", "Construct"]
+  },
+  {
+    "category": "boss",
+    "monster": "Linda",
+    "hp": 18,
+    "morale": 12,
+    "attack": "Knife — d10",
+    "armor": 3,
+    "special": "Possessed Glare: Controls 1 model at range. Victim attacks nearest crew; Rage Spiral: At 0 HP, Linda immediately activates one more time before being removed",
+    "keywords": ["Human", "Psycho", "Possessed"]
+  },
+  {
+    "category": "boss",
+    "monster": "Manager Mike, Evil Twin",
+    "hp": 17,
+    "morale": 11,
+    "attack": "Chainsaw Hand — d8",
+    "armor": 2,
+    "special": "Escort Detail: Accompanied by d4+1 Cursed Shopping Carts",
+    "keywords": ["Human", "Doppelganger", "Cursed"]
+  },
+  {
+    "category": "boss",
+    "monster": "Hex Mall Warlock",
+    "hp": 15,
+    "morale": null,
+    "attack": "Hex Bolt — d10",
+    "armor": 3,
+    "special": "Hex Mastery: Cast up to 3 spells per Scenario; each spell may target a different model",
+    "keywords": ["Undead", "Demon", "Caster"]
+  },
+  {
+    "category": "boss",
+    "monster": "Cult Leader",
+    "hp": 19,
+    "morale": 9,
+    "attack": "Ritual Blade — d8",
+    "armor": 1,
+    "special": "Tough Skin: Ignores Critical hits. Targets Manuscript users",
+    "keywords": ["Human", "Cult", "Caster"]
+  },
+  {
+    "category": "boss",
+    "monster": "Possessed Cash Register",
+    "hp": 12,
+    "morale": null,
+    "attack": "Receipt Spit — d8",
+    "armor": 2,
+    "special": "Cha-Ching!: Spawns d2+1 Shambling Zombies each turn",
+    "keywords": ["Construct", "Undead"]
+  }
+]
