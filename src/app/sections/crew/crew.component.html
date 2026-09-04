@@ -1,0 +1,113 @@
+<section id="crew" style="background: var(--bg-2)" aria-labelledby="crew-heading">
+  <div class="section-head ">
+    <p class="tag">Recruitment Poster — Now Hiring</p>
+    <h2 id="crew-heading">THE CREW</h2>
+    <p style="color: var(--dim); max-width: 60ch">
+      Click any card to open the full dossier — stats, gear, feats, flaws. The HR department apologizes in advance.
+    </p>
+  </div>
+  <div class="grid-5" id="crewGrid">
+    @for (entry of crew; track entry[0]) {
+      <button
+        class="char-card"
+        type="button"
+        [attr.data-num]="entry[1].num"
+        [attr.aria-label]="'Open dossier for ' + entry[1].name"
+        (click)="openModal(entry[1], $event)"
+      >
+        <h3>{{ entry[1].name }}</h3>
+        <div class="stats">
+          <span>{{ entry[1].stats.STR }} STR</span><span>{{ entry[1].stats.TOU }} TOU</span
+          ><span>HP {{ entry[1].derived[0][1] }}</span>
+        </div>
+        <p class="card-kicker">{{ entry[1].kicker.split(' - ')[1] }}</p>
+        <p class="quote">{{ entry[1].quote }}</p>
+        <span class="tag dossier-hint">Open dossier</span>
+      </button>
+    }
+  </div>
+</section>
+
+@if (selectedMember; as member) {
+  <div class="modal-overlay open" role="presentation" (click)="$event.target === $event.currentTarget && closeModal()">
+    <section #modalContent class="modal" role="dialog" aria-modal="true" aria-labelledby="crew-modal-title">
+      <button class="modal-close" type="button" aria-label="Close dossier" (click)="closeModal()">X</button>
+      <p class="tag">{{ member.kicker }}</p>
+      <h2 id="crew-modal-title">{{ member.name }}</h2>
+      <div class="stat-block">
+        @for (stat of [member.stats.STR, member.stats.AGI, member.stats.PRE, member.stats.TOU]; track $index) {
+          <div class="stat-cell" [class.pos]="stat.startsWith('+')" [class.neg]="stat.startsWith('-')">
+            <div class="lbl">{{ ['STR', 'AGI', 'PRE', 'TOU'][$index] }}</div>
+            <div class="val">{{ stat }}</div>
+          </div>
+        }
+      </div>
+      <div class="stat-block">
+        @for (stat of member.derived; track stat[0]) {
+          <div class="stat-cell">
+            <div class="lbl">{{ stat[0] }}</div>
+            <div class="val">{{ stat[1] }}</div>
+          </div>
+        }
+      </div>
+      <h4>Equipment</h4>
+      <ul class="gear-list">
+        @for (item of member.gear; track item) {
+          <li>{{ item }}</li>
+        }
+      </ul>
+      <h4>Feats</h4>
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Rule</th>
+            <th scope="col">Effect</th>
+          </tr>
+        </thead>
+        <tbody>
+          @for (rule of member.feats; track rule[0]) {
+            <tr>
+              <th scope="row">{{ rule[0] }}</th>
+              <td>{{ rule[1] }}</td>
+            </tr>
+          }
+        </tbody>
+      </table>
+      <h4>Flaws</h4>
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Rule</th>
+            <th scope="col">Effect</th>
+          </tr>
+        </thead>
+        <tbody>
+          @for (rule of member.flaws; track rule[0]) {
+            <tr>
+              <th scope="row">{{ rule[0] }}</th>
+              <td>{{ rule[1] }}</td>
+            </tr>
+          }
+        </tbody>
+      </table>
+      @if (member.special) {
+        <h4>Special Rules</h4>
+        <table>
+          <tbody>
+            @for (rule of member.special; track rule[0]) {
+              <tr>
+                <th scope="row">{{ rule[0] }}</th>
+                <td>{{ rule[1] }}</td>
+              </tr>
+            }
+          </tbody>
+        </table>
+      }
+      <p class="quote">{{ member.quote }}</p>
+      <div class="modal-nav">
+        <button type="button" (click)="selectAdjacent(-1)" aria-label="Previous crew member">Previous</button
+        ><button type="button" (click)="selectAdjacent(1)" aria-label="Next crew member">Next</button>
+      </div>
+    </section>
+  </div>
+}

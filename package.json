@@ -1,0 +1,49 @@
+{
+  "name": "shop-smart",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test",
+    "test:ci": "ng test --watch=false --browsers=ChromeHeadless --code-coverage",
+    "format": "npx --yes prettier --write \"src/app/core/**/*.{ts,html,scss}\" \"src/app/sections/crew/**/*.{ts,html,scss}\" \"src/app/navigation-bar/**/*.{ts,html,scss}\" src/app/app.config.ts src/app/app.routes.ts src/index.html",
+    "format:check": "npx --yes prettier --check \"src/app/core/**/*.{ts,html,scss}\" \"src/app/sections/crew/**/*.{ts,html,scss}\" \"src/app/navigation-bar/**/*.{ts,html,scss}\" src/app/app.config.ts src/app/app.routes.ts src/index.html",
+    "lint": "npx --yes eslint src --max-warnings=0"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "^18.1.0",
+    "@angular/common": "^18.1.0",
+    "@angular/compiler": "^18.1.0",
+    "@angular/core": "^18.1.0",
+    "@angular/forms": "^18.1.0",
+    "@angular/platform-browser": "^18.1.0",
+    "@angular/platform-browser-dynamic": "^18.1.0",
+    "@angular/router": "^18.1.0",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.14.3"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^18.1.1",
+    "@angular/cli": "^18.1.1",
+    "@angular/compiler-cli": "^18.1.0",
+    "@types/jasmine": "~5.1.0",
+    "jasmine-core": "~5.1.0",
+    "karma": "~6.4.0",
+    "karma-chrome-launcher": "~3.2.0",
+    "karma-coverage": "~2.2.0",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.1.0",
+    "typescript": "~5.5.2",
+    "@angular-eslint/eslint-plugin": "^22.2.0",
+    "@angular-eslint/eslint-plugin-template": "^22.2.0",
+    "@angular-eslint/template-parser": "^22.2.0",
+    "@typescript-eslint/eslint-plugin": "^8.42.0",
+    "@typescript-eslint/parser": "^8.42.0",
+    "eslint": "^9.35.0",
+    "prettier": "^3.6.2"
+  }
+}

@@ -1,0 +1,22 @@
+<nav id="nav">
+  <div class="logo" style="font-family: 'Bebas Neue'; font-size: 1.4rem">
+    MYSTERY <em style="color: var(--acid); font-style: normal">SHOPPERS</em> <a href="#top" class="logo">☠ </a>
+  </div>
+  <ul>
+      <li><a href="#crew">The Crew</a></li>
+    <li><a href="#bestiary">Bestiary</a></li>
+    <li><a href="#omens">Omens</a></li>
+    <li><a href="#clues">Clues</a></li>
+    <li><a href="#scenarios">Scenarios</a></li>
+    <!-- @for (item of navItems; track item) {
+      <li>
+        @if (item.route) {
+          <a [routerLink]="item.route" routerLinkActive="active">{{ item.label }}</a>
+        } @else {
+          <a [routerLink]="['/']" [fragment]="item.fragment">{{ item.label }}</a>
+        }
+      </li>
+    } -->
+   
+  </ul>
+</nav>

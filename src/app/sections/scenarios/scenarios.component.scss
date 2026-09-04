@@ -1,0 +1,54 @@
+.scenario-card {
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+}
+
+.scenario-card.finale {
+  border-bottom-color: var(--blood);
+}
+
+.scenario-summary,
+.scenario-intro,
+.scenario-details {
+  color: var(--dim);
+}
+
+.scenario-intro {
+  max-width: 75ch;
+  margin: 1rem 0 1.25rem;
+}
+
+.scenario-details {
+  display: grid;
+  gap: 0.5rem;
+  max-width: 75ch;
+}
+
+.scenario-details details {
+  border-top: 1px solid var(--line);
+  padding: 0.75rem 0;
+}
+
+.scenario-details summary {
+  color: var(--acid);
+  cursor: pointer;
+  font-family: 'Special Elite', monospace;
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.scenario-details ul {
+  margin: 0.75rem 0 0 1.2rem;
+}
+
+.scenario-details li {
+  margin: 0.45rem 0;
+}
+
+@media (max-width: 720px) {
+  .scenario-summary {
+    flex-basis: 100%;
+  }
+}

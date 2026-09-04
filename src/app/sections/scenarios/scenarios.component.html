@@ -1,0 +1,31 @@
+<section id="scenarios" aria-labelledby="scenarios-heading">
+  <div class="section-head">
+    <p class="tag">Tonight Only</p>
+    <h2 id="scenarios-heading">FOUR DISASTERS, SCHEDULED</h2>
+    
+  </div>
+  @for (scenario of scenarios; track scenario.number) {
+    <article class="scenario-card" [class.finale]="scenario.finale">
+      <div class="scenario-row">
+        <div>
+          <p class="tag">Scenario {{ scenario.number }}{{ scenario.finale ? ' - Finale' : '' }}</p>
+          <h3>{{ scenario.title }}</h3>
+        </div>
+        <span class="tag scenario-summary">{{ scenario.subtitle }}</span>
+      </div>
+      <p class="scenario-intro">{{ scenario.summary }}</p>
+      <div class="scenario-details">
+        @for (section of scenario.sections; track section.title) {
+          <details>
+            <summary>{{ section.title }}</summary>
+            <ul>
+              @for (item of section.items; track item) {
+                <li>{{ item }}</li>
+              }
+            </ul>
+          </details>
+        }
+      </div>
+    </article>
+  }
+</section>
