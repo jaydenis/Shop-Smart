@@ -9,7 +9,7 @@ This project was generated with:
 - Google Gemin/Antigravity
 
 ## See It In Action
-[Dude! Watch This](https://yolodeploy.netlify.app/)
+[Dude! Hold My Beer](https://yolodeploy.netlify.app/)
 
 ## Development server
 
