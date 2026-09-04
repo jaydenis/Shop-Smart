@@ -1,7 +1,6 @@
 [
   {
     "tier": "common",
-    "category": "common",
     "monster": "Shambling Zombie",
     "hp": 2,
     "morale": null,
@@ -12,7 +11,6 @@
   },
   {
     "tier": "common",
-    "category": "common",
     "monster": "Possessed Mannequin",
     "hp": 3,
     "morale": 8,
@@ -23,7 +21,6 @@
   },
   {
     "tier": "common",
-    "category": "common",
     "monster": "Clown Corpse",
     "hp": 2,
     "morale": 6,
@@ -34,7 +31,6 @@
   },
   {
     "tier": "common",
-    "category": "common",
     "monster": "Crypt Skitter",
     "hp": 4,
     "morale": 5,
@@ -45,7 +41,6 @@
   },
   {
     "tier": "common",
-    "category": "common",
     "monster": "Cultist",
     "hp": 5,
     "morale": "9*",
@@ -56,7 +51,6 @@
   },
   {
     "tier": "common",
-    "category": "common",
     "monster": "Cursed Shopping Cart",
     "hp": 4,
     "morale": null,
@@ -67,7 +61,6 @@
   },
   {
     "tier": "tough",
-    "category": "tough",
     "monster": "Undead Manager",
     "hp": 6,
     "morale": 10,
@@ -78,7 +71,6 @@
   },
   {
     "tier": "tough",
-    "category": "tough",
     "monster": "Demon Clown",
     "hp": 5,
     "morale": null,
@@ -89,7 +81,6 @@
   },
   {
     "tier": "tough",
-    "category": "tough",
     "monster": "Grave Robber",
     "hp": 8,
     "morale": 9,
@@ -100,7 +91,6 @@
   },
   {
     "tier": "tough",
-    "category": "tough",
     "monster": "Night Stalker",
     "hp": 12,
     "morale": null,
@@ -111,7 +101,6 @@
   },
   {
     "tier": "tough",
-    "category": "tough",
     "monster": "Blood-Crazed Drifter",
     "hp": 10,
     "morale": 9,
@@ -122,7 +111,6 @@
   },
   {
     "tier": "tough",
-    "category": "tough",
     "monster": "Cackling Groundskeeper",
     "hp": 8,
     "morale": 8,
@@ -133,7 +121,6 @@
   },
   {
     "tier": "tough",
-    "category": "tough",
     "monster": "Patchwork Enforcer",
     "hp": 13,
     "morale": null,
@@ -144,7 +131,6 @@
   },
   {
     "tier": "boss",
-    "category": "boss",
     "monster": "Linda",
     "hp": 18,
     "morale": 12,
@@ -155,7 +141,6 @@
   },
   {
     "tier": "boss",
-    "category": "boss",
     "monster": "Manager Mike, Evil Twin",
     "hp": 17,
     "morale": 11,
@@ -166,7 +151,6 @@
   },
   {
     "tier": "boss",
-    "category": "boss",
     "monster": "Hex Mall Warlock",
     "hp": 15,
     "morale": null,
@@ -177,7 +161,6 @@
   },
   {
     "tier": "boss",
-    "category": "boss",
     "monster": "Cult Leader",
     "hp": 19,
     "morale": 9,
@@ -188,7 +171,6 @@
   },
   {
     "tier": "boss",
-    "category": "boss",
     "monster": "Possessed Cash Register",
     "hp": 12,
     "morale": null,
