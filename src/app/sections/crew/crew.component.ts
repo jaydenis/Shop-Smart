@@ -92,7 +92,7 @@ const CREW: Crew = {
     quote: '"The culprit is obvious. It was the possessed mannequin. Again."',
   },
   chris: {
-    num: '03',
+    num: '04',
     kicker: 'Secondary Tank - Spiritually Elevated',
     name: 'CHILL CHRIS',
     blurb: 'Takes the bullet so you do not have to. Then asks if anyone has snacks.',
@@ -122,7 +122,7 @@ const CREW: Crew = {
     quote: '"Dude, that zombie just... vibes wrong, ya know?"',
   },
   betty: {
-    num: '04',
+    num: '05',
     kicker: 'Medic / Support - Malpractice Included Free',
     name: 'NURSE BETTY',
     blurb: 'Shock whip medic. Hit once, bleed forever. Bedside manner not included.',

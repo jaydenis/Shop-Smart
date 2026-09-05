@@ -1,6 +1,11 @@
 [
   {
-    "tier": "common",
+
+  "tier": "common",
+  "hostiles":
+  [
+  {
+   
     "monster": "Shambling Zombie",
     "hp": 2,
     "morale": null,
@@ -10,8 +15,7 @@
     "keywords": ["Undead"]
   },
   {
-    "tier": "common",
-    "monster": "Possessed Mannequin",
+        "monster": "Possessed Mannequin",
     "hp": 3,
     "morale": 8,
     "attack": "Slam — d6",
@@ -20,7 +24,7 @@
     "keywords": ["Construct", "Undead"]
   },
   {
-    "tier": "common",
+    
     "monster": "Clown Corpse",
     "hp": 2,
     "morale": 6,
@@ -30,7 +34,7 @@
     "keywords": ["Undead"]
   },
   {
-    "tier": "common",
+    
     "monster": "Crypt Skitter",
     "hp": 4,
     "morale": 5,
@@ -40,7 +44,7 @@
     "keywords": ["Beast", "Undead"]
   },
   {
-    "tier": "common",
+    
     "monster": "Cultist",
     "hp": 5,
     "morale": "9*",
@@ -50,7 +54,7 @@
     "keywords": ["Human", "Cult"]
   },
   {
-    "tier": "common",
+    
     "monster": "Cursed Shopping Cart",
     "hp": 4,
     "morale": null,
@@ -58,9 +62,17 @@
     "armor": 3,
     "special": "Obstruction (blocks movement)",
     "keywords": ["Construct"]
-  },
+  }
+  ]
+}
+
+,
+{
+ "tier": "tough",
+  "hostiles":
+  [
   {
-    "tier": "tough",
+    
     "monster": "Undead Manager",
     "hp": 6,
     "morale": 10,
@@ -70,7 +82,7 @@
     "keywords": ["Undead"]
   },
   {
-    "tier": "tough",
+    
     "monster": "Demon Clown",
     "hp": 5,
     "morale": null,
@@ -80,7 +92,7 @@
     "keywords": ["Undead", "Demon"]
   },
   {
-    "tier": "tough",
+    
     "monster": "Grave Robber",
     "hp": 8,
     "morale": 9,
@@ -90,7 +102,7 @@
     "keywords": ["Undead", "Ghoul"]
   },
   {
-    "tier": "tough",
+    
     "monster": "Night Stalker",
     "hp": 12,
     "morale": null,
@@ -100,7 +112,7 @@
     "keywords": ["Undead", "Vampire", "Hard To Kill"]
   },
   {
-    "tier": "tough",
+    
     "monster": "Blood-Crazed Drifter",
     "hp": 10,
     "morale": 9,
@@ -110,7 +122,7 @@
     "keywords": ["Undead", "Vampire", "Hard To Kill"]
   },
   {
-    "tier": "tough",
+    
     "monster": "Cackling Groundskeeper",
     "hp": 8,
     "morale": 8,
@@ -120,7 +132,7 @@
     "keywords": ["Human", "Psycho"]
   },
   {
-    "tier": "tough",
+    
     "monster": "Patchwork Enforcer",
     "hp": 13,
     "morale": null,
@@ -128,9 +140,16 @@
     "armor": 1,
     "special": "Stagger Shock: On a Critical hit, the target is Dazed",
     "keywords": ["Undead", "Construct"]
-  },
+  }
+  ] 
+}
+  ,
   {
-    "tier": "boss",
+   "tier": "boss",
+  "hostiles":
+  [
+  {
+   
     "monster": "Linda",
     "hp": 18,
     "morale": 12,
@@ -140,7 +159,7 @@
     "keywords": ["Human", "Psycho", "Possessed"]
   },
   {
-    "tier": "boss",
+   
     "monster": "Manager Mike, Evil Twin",
     "hp": 17,
     "morale": 11,
@@ -150,7 +169,7 @@
     "keywords": ["Human", "Doppelganger", "Cursed"]
   },
   {
-    "tier": "boss",
+   
     "monster": "Hex Mall Warlock",
     "hp": 15,
     "morale": null,
@@ -160,7 +179,7 @@
     "keywords": ["Undead", "Demon", "Caster"]
   },
   {
-    "tier": "boss",
+   
     "monster": "Cult Leader",
     "hp": 19,
     "morale": 9,
@@ -170,7 +189,7 @@
     "keywords": ["Human", "Cult", "Caster"]
   },
   {
-    "tier": "boss",
+   
     "monster": "Possessed Cash Register",
     "hp": 12,
     "morale": null,
@@ -180,3 +199,5 @@
     "keywords": ["Construct", "Undead"]
   }
 ]
+  }  
+  ]

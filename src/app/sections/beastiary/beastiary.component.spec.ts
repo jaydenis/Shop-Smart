@@ -20,4 +20,9 @@ describe('BeastiaryComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('renders every hostile from the roster', () => {
+    expect(component.hostileGroups).toHaveSize(3);
+    expect(fixture.nativeElement.querySelectorAll('.threat')).toHaveSize(18);
+  });
 });
